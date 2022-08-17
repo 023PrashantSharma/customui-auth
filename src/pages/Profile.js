@@ -3,8 +3,8 @@
 
 import React, { useState, useEffect } from 'react'
 import { Auth, Hub } from 'aws-amplify'
-import Container from './Container'
-import Form from './Form'
+import Container from '../layout/Container'
+import Form from '../components/Form'
 
 function Profile() {
     useEffect(() => {
@@ -34,7 +34,7 @@ function Profile() {
                 <h1>Profile</h1>
                 <h2>Username: {user.username}</h2>
                 <h3>Email: {user.email}</h3>
-                <Button onClick={signOut}>Sign Out</Button>
+                <button onClick={signOut}>Sign Out</button>
             </Container>
         );
     }

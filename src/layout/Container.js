@@ -1,6 +1,7 @@
 // Container.js
 const Container = ({ children }) => (
-    <div style={styles.container}>
+    <div >
         {children}
     </div>
 )
+export default Container

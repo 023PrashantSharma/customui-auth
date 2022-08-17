@@ -3,7 +3,7 @@ import React from 'react'
 
 function ForgotPasswordSubmit(props) {
     return (
-        <div style={styles.container}>
+        <div>
             <input
                 name='confirmationCode'
                 placeholder='Confirmation code'

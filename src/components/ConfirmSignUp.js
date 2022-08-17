@@ -3,7 +3,7 @@ import React from 'react'
 
 function ConfirmSignUp(props) {
     return (
-        <div style={styles.container}>
+        <div>
             <input
                 name='confirmationCode'
                 placeholder='Confirmation Code'

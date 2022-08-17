@@ -60,7 +60,7 @@ async function forgotPasswordSubmit({ username, confirmationCode, password }, up
     }
 }
 
-function Form(props) {
+export default function Form(props) {
     const [formType, updateFormType] = useState('signIn')
     const [formState, updateFormState] = useState(initialFormState)
     function updateForm(event) {
